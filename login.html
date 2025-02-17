@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+ <link href="loginDesign.css" rel="stylesheet"> 
+</head>
+<body>
+  <!-- Blurry Background Overlay-->
+  <div class="overlay"></div>
+
+  <!-- Login Form -->
+  <div class="login-form">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <input type="email" id="email" placeholder="Email" required><img id="user"src="user.svg">
+      <input type="password" id="password" placeholder="Password" required><img id="pass"src="pass.svg">
+      <div id="remember-forgot">
+      <input id="checkbox"type="checkbox"><span>  Remember me</span>
+        <p id="forgor">Forgot Password?</p>
+      </div>
+      <button type="submit"><b>Login</b></button>
+      <p id="reg">Don't have an account? <b>Register</b></p>
+    </form>
+  </div>
+
+  <script src="loginScript.js">
+ 
+  </script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>myPortfolio</title> 
+    <link href="style.css" rel ="stylesheet">
+</head>
+
+<body>
+    <header>
+       <h1 id="logo"><span id="logoName">Sodikin</span><span id="dev">Dev</span></h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills" onclick="toggleSection('skills')">Skills</a></li>
+                <li><a href="#projects" onclick="toggleSection('projects')">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p class="typing">I am a passionate <b><span id="full-stack">Full-Stack Developer.</span></b></p>
+        <br>
+        <button onclick="window.location.href='#about'">Learn More</button>
+    </section>
+
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <br>
+        <img id="me" src="me.png">
+        <br>
+        <p id="about-me">Hello! I'm <b><span id="myName">Sodikin</span></b>, an Information Technology Student and a Full-Stack Developer with a passion for creating responsive websites.
+             I specialize in HTML, CSS, JavaScript, and React.</p>
+        <br>
+        <div id="images">
+        <a href="https://www.facebook.com/share/1FDyQCuCxE/"><img class="acc" id="fb" src="fb.png"></a>
+        <a href="https://www.instagram.com/miq_e4c5?igsh=eHBucjQ0d21vaDRl"> <img class="acc" id="ig"src="ig.png"></a>
+        <a href="https://github.com/devmique"><img  class="acc" id="git"src="git.png"></a>
+        <a href="https://www.linkedin.com/in/johnlord-mique-40b5a1342?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="acc" id="in"src="in.png"></a>
+        </div>
+        <div id="box">
+
+        </div>
+        
+    </section>
+
+    <section id="skills" class="fade-in">
+        <h2>My Skills</h2>
+        <div class="skill-set">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Java</div>
+            <div class="skill">Php</div>
+            <div class="skill">MySQL</div>
+            
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Weather App.</p>
+                <details><summary>Description</summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</details>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Notes App.</p>
+                <details><summary>Description</summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</details>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>Chat Bot App.</p>
+                <details><summary>Description</summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</details>
+            </div>
+            <div class="project">
+                <h3>Project 4</h3>
+                <p>Chat App.</p>
+                <details>
+                    <summary>Description</summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2>Contact Me</h2>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="name" placeholder="Your Email" required>
+        <input id="message" placeholder="Your Message" required></textarea>
+        <button id="submit">Send</button>
+        <br>
+        <p><b>or</b></p>
+        <p class="typing">Feel free to reach out via email at <i>miquejt13@gmail.com</i></p>
+    </section>
+<footer>
+   
+</footer>
+    <script src="script.js">
+    </script>
+</body>
+</html>
