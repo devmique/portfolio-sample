@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header class="z-50 relative top-4 left-1/2 transform -translate-x-1/2 flex items-center justify-center gap-40 bg-transparent text-black py-6 px-2 rounded-full max-xl:px-8 max-xl:py-4 max-xl:gap-8 max-md:px-4 max-md:py-4 max-md:gap-4 max-sm:py-4 px-20 max-sm:gap-32">
+        <a href="#" class="text-[black] text-2xl font-semibold whitespace-nowrap transition duration-300 ease-in-out transform hover:scale-110 "><span>Dev</span><span class="text-[#0759b6e4]">Mique</span></a>
+        <ul class="nav-links" >
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#certification">Certifications</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        
+    </header>
+  <section id="about" class="flex items-center justify-center">
+    <div class=" about-container flex items-center justify-center gap-40 max-xl:gap-12 max-md:flex-col">
+        <img src="mee.webp" alt="me" class="about-img">
+        <div class="  flex flex-col text-center items-center justify-center gap-12">
+            <div class="text">
+                <h3 class="text-4xl font-semibold text-gray-800">Hi, I'm</h3>
+                <h1 class="text-5xl font-semibold">Johnlord Mique</h1>
+                <span class="text-[1.9rem] text-[#0759b6e4] font-semibold"><span class="text-gray-800">Frontend</span> Developer</span>
+               <br></br>
+                <h1 class="skill-text">I am proficient at</h1>
+                <div class="flex gap-4 cursor-pointer justify-center items-center">
+                <img src="html.jpg" alt="html" class=" skill h-[60px] w-[60px]">
+                <img src="css.jpg" alt="css" class=" skill h-[54px] w-[55px] mt-[3px]">
+                <img src="tailwind.jpg" alt="taiwind" class=" skill h-[50px] w-[50px] mt-[7px]">
+                <img src="js.jpg" alt="js" class=" skill h-[70px] w-[70px]">
+                <img src="react.jpg" alt="react" class=" skill h-[60px] w-[60px]">
+                <img src="nodejs.jpg" alt="node" class=" skill h-[60px] w-[60px]">
+                <img src="express.jpg" alt="html" class=" skill h-[55px] w-[55px]">
+                <img src="mysql.jpg" alt="mysql" class=" skill h-[55px] w-[55px]">
+                </div>
+            </div>
+            <div class="flex gap-4">
+                <div class="btn">Download Resume</div>
+                <div class="btn">Contact</div>
+            </div>
+            <div class="flex gap-12">
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+  </section>
+<section id="certification" class="certification">
+    <h2 class="items-center text-4xl font-semibold mb-12">Certifications</h2>
+    <div class="flex items-center justify-center gap-20 max-xl:flex-col">
+        <div class="grid grid-cols-2 gap-8 max-md:grid-cols-1">
+            <div class="grid-card">
+                <i class="fa-solid fa-terminal"></i>
+                <span class="font-bold text-[1.2rem] text-gray-900" >Full-Stack <span class="text-[#0759b6e4]">Development</span></span>
+                <img src="cert1.jpg" alt="" class=" cert h-[320px] w-full rounded-xl">
+                <h3 class="font-semibold">April 16, 2025</h3>
+                <p>Online course from mimo.org/mimo app.</p>
+            </div>
+            <div class="grid-card">
+                <i class="fa-solid fa-code"></i>
+                <span class="font-bold text-[1.2rem] text-gray-900">Introduction to <span class="text-[#0759b6e4]">JavaScript</span></span>
+                <img src="cert2.jpg" alt="" class="cert">
+                <h3 class="font-semibold">July 3, 2024</h3>
+                <p>Online course from Sololearn app.</p>
+            </div>
+            <div class="grid-card">
+            <i class="fa-solid fa-code"></i>
+                <span  class="font-bold text-[1.2rem] text-gray-900">JavaScript <span class="text-[#0759b6e4]">Intermediate</span></span>
+                <img src="cert3.jpg" alt="" class="cert">
+                <h3 class="font-semibold">July 7, 2024</h3>
+                <p>Online course from Sololearn app.</p>
+            </div>
+            <div class="grid-card">
+                <i class="fa-solid fa-database"></i>
+                <span  class="font-bold text-[1.2rem] text-gray-900">Introduction to <span class="text-[#0759b6e4]">SQL</span></span>
+                <img src="cert4.jpg" alt="" class="cert">
+                <h3 class="font-semibold">October 16, 2024</h3>
+                <p>Online course from Sololearn app.</p>
+            </div>
+            <div class="grid-card">
+                <i class="fa-solid fa-database"></i>
+                <span class="font-bold text-[1.2rem] text-gray-900">SQL <span class="text-[#0759b6e4]">Intermediate</span></span>
+                <img src="cert5.jpg" alt="" class="cert">
+                <h3 class="font-semibold">November 03, 2024</h3>
+                <p>Online course from Sololearn app.</p>
+            </div>
+        </div>
+       
+    </div>
+</section>
+<section id="projects" class="projects">
+    <h3 class="section-title text-4xl font-semibold mb-4">Projects</h3>
+    <div class="grid grid-cols-2 gap-6 max-md:grid-cols-1">
+
+        <div class="project-card">
+            <img src="project1.jpeg" alt="" class="project-img w-[200px] h-[200px]">
+            <h3>Project 1</h3>
+            <h2 class="text-[1.2rem] font-bold"> Admin-Parent <span class="text-[#0759b6e4]">Dashboard</span></h2>
+            <div class="flex gap-8">
+            <a href="">
+                <div class="btn">Live Demo</div>
+            </a>
+                <a href=""><div class="btn">Github Repo</div></a>
+        </div>
+            </div>
+        <div class="project-card">
+        <img src="project2.jpeg" alt="" class="project-img w-[200px] h-[200px]">
+            <h3>Project 2</h3>
+            <h2 class="text-[1.2rem] font-bold">Portfolio <span class="text-[#0759b6e4]">Website</span></h2>
+            <div class="flex gap-8">
+            <a href="">
+                <div class="btn">Live Demo</div>
+            </a>
+                <a href=""><div class="btn">Github Repo</div></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact" class="contact">
+    <div class="flex flex-col items-center justify-center gap-8 mt-24">
+        <h2 class="section-title text-4xl font-semibold">Contact me</h2>
+        <div class=" rounded-full border-2 border-black px-8 py-2 text-xl">
+            <input type="text" class=" relative placeholder:text-xl"placeholder="email@example.com">
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+
+        <button class="btn">Submit</button>
+    </div>
+</section>
+<footer class="bottom-0 left-0 h-40 w-full flex flex-col items-center justify-center">
+    <ul class="flex items-center gap-12 max-sm:flex max-sm:gap-4">
+        <li>
+            <a href="#about">About</a>
+        </li>
+        <li>
+            <a href="#certification">Certifications</a>
+        </li>
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+    <p class="text-base mt-24"> Copyright © 2025 Johnlord Mique. All rights reserved.</p>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
