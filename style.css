@@ -82,12 +82,13 @@ section{
     }
 }
 .about-img{
-    width: 30vw;
+    width: 25vw;
     border-radius: 60% 40% 30% 70% / 50% 60% 40% 50%;
     background-color:#0759b6e4;
+    
 }
 .skill-text{
-    color: rgba(0, 0, 0, 0.556);
+    color: rgba(0, 0, 0, 0.639);
     font-size: 1.3rem;
    font-family: monospace;
     margin-inline:auto;
@@ -160,6 +161,7 @@ section{
     border: 2px solid black;
     border-radius: 2rem;
     padding: 1.5rem;
+   
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -222,19 +224,24 @@ footer ul li a{
     color: black;
     font-weight: 600;
 }
+.nav-links{
+    display: flex;
+    gap: 2rem;
+}
 @media (max-width: 640px) {
     .nav-links {
         display: none;
         flex-direction: column;
         background: transparent;
-        text-align: center;
+        text-align: left;
         width: 40%;
         position: absolute;
         top: 100%;
-        left: 50%;
+        left: 60%;
         font-weight: bold;
         color: #1f2937;
         border-radius: 1rem;
+        gap:0;
     }
 
     .nav-links.active {
