@@ -83,7 +83,7 @@ section{
 }
 .about-img{
     width: 30vw;
-    border-radius: 100%;
+    border-radius: 60% 30% 20% 60% / 30% 60% 40% 20%;
     background-color:#0759b6e4;
     
 }
